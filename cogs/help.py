@@ -13,7 +13,7 @@ class Help(Cog_Extension):
         if not await check_channel(interaction, "HELP_CMD_CHANNEL_ID"):
             return
 
-        embed=discord.Embed(description="[FuseFairy/DiscordBot-EdgeGPT](https://github.com/FuseFairy/DiscordBot-EdgeGPT/blob/main/README.md)\n***COMMANDS -***")
+        embed=discord.Embed(description="Arsha-AI\n***COMMANDS -***")
         embed.add_field(name="/cookies setting", value="Can upload own cookies.", inline=False)
         embed.add_field(name="/dalle3 setting", value="Can upload own api key, api key can get from https://dalle.feiyuyu.net/dashboard.", inline=False)
         embed.add_field(name="/copilot", value="Chat with Copilot or Sydney(jail break).", inline=False)
